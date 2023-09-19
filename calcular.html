@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Idade</title>
+</head>
+<body>
+    <h1>Calculadora de Idade</h1> 
+
+        <h2>Seu nome: </h2>
+        <div id="nome"></div>
+        <h2>Sua idade: </h2>
+        <div id="idade"></div>
+
+    <script>
+        let nome = prompt("Qual o seu nome?");
+        let ano =prompt("Em que ano você nasceu?");
+
+        document.getElementById("nome").innerHTML = nome;
+        document.getElementById("idade").innerHTML = 2023-ano + " anos";
+
+    </script>
+
+    
+</body>
+</html>

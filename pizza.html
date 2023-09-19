@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Voto por idade</title>
+</head>
+<body>
+     <h1>Pedido realizado com sucesso!</h1> 
+    
+            <h2>Sabor: </h2>
+            <div id="sabor"></div>
+            <h2>Tamanho: </h2>
+            <div id="tamanho"></div>
+            <h2>Forma de Pagamento: </h2>
+            <div id="pagamento"></div>
+    
+        <script>
+            let sabor = prompt("Qual o sabor da pizza de sua preferência?");
+            let tamanho = prompt("Qual o tamanho desejado?");
+            let pagamento = prompt("Qual será a forma de pagamento");
+    
+            document.getElementById("sabor").innerHTML = sabor;
+            document.getElementById("tamanho").innerHTML = tamanho;
+            document.getElementById("pagamento").innerHTML = pagamento;
+    
+        </script>
+    
+</body>
+</html>
